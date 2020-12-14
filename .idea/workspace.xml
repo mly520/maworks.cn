@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d1a6fcc0-7c40-4b1f-8092-c8b5340cd844" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607668226110</updated>
       <workItem from="1607668227120" duration="3176000" />
-      <workItem from="1607822304805" duration="5272000" />
+      <workItem from="1607822304805" duration="7190000" />
+      <workItem from="1607928840601" duration="174000" />
     </task>
     <servers />
   </component>
@@ -175,14 +175,14 @@
     </state>
     <state x="-1011" y="-334" width="1020" height="1552" key="DiffContextDialog/-1080.-457.1080.1897/0.23.2560.1417/2560.23.1792.1097@-1080.-457.1080.1897" timestamp="1607910739927" />
     <state x="100" y="123" width="1279" height="897" key="DiffContextDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1607823479803" />
-    <state x="-859" y="115" width="637" height="753" key="find.popup" timestamp="1607913321165">
+    <state x="-859" y="116" width="637" height="753" key="find.popup" timestamp="1607914943305">
       <screen x="-1080" y="-457" width="1080" height="1897" />
     </state>
-    <state x="-859" y="115" width="637" height="753" key="find.popup/-1080.-457.1080.1897/0.23.2560.1417/2560.23.1792.1097@-1080.-457.1080.1897" timestamp="1607913321165" />
-    <state x="-803" y="-33" width="670" height="1169" key="search.everywhere.popup" timestamp="1607913241117">
+    <state x="-859" y="116" width="637" height="753" key="find.popup/-1080.-457.1080.1897/0.23.2560.1417/2560.23.1792.1097@-1080.-457.1080.1897" timestamp="1607914943305" />
+    <state x="-803" y="-33" width="670" height="1169" key="search.everywhere.popup" timestamp="1607929007551">
       <screen x="-1080" y="-457" width="1080" height="1897" />
     </state>
-    <state x="-803" y="-33" width="670" height="1169" key="search.everywhere.popup/-1080.-457.1080.1897/0.23.2560.1417/2560.23.1792.1097@-1080.-457.1080.1897" timestamp="1607913241117" />
+    <state x="-803" y="-33" width="670" height="1169" key="search.everywhere.popup/-1080.-457.1080.1897/0.23.2560.1417/2560.23.1792.1097@-1080.-457.1080.1897" timestamp="1607929007551" />
     <state x="460" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1607824552941" />
     <state x="657" y="339" width="958" height="874" key="search.everywhere.popup/0.23.2560.1417/2560.23.1792.1097@0.23.2560.1417" timestamp="1607675498322" />
   </component>
