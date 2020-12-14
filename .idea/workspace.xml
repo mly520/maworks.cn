@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d1a6fcc0-7c40-4b1f-8092-c8b5340cd844" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Handlers/ImageUploadHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handlers/ImageUploadHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +163,7 @@
       <updated>1607668226110</updated>
       <workItem from="1607668227120" duration="3176000" />
       <workItem from="1607822304805" duration="7190000" />
-      <workItem from="1607928840601" duration="5538000" />
+      <workItem from="1607928840601" duration="6116000" />
     </task>
     <servers />
   </component>
@@ -182,10 +185,10 @@
     </state>
     <state x="-859" y="338" width="637" height="753" key="find.popup/-1080.-235.1080.1897/0.23.2560.1417/2560.23.1792.1097@-1080.-235.1080.1897" timestamp="1607930537219" />
     <state x="-859" y="116" width="637" height="753" key="find.popup/-1080.-457.1080.1897/0.23.2560.1417/2560.23.1792.1097@-1080.-457.1080.1897" timestamp="1607914943305" />
-    <state x="-803" y="189" width="670" height="1169" key="search.everywhere.popup" timestamp="1607936141558">
+    <state x="-803" y="189" width="670" height="1169" key="search.everywhere.popup" timestamp="1607936625666">
       <screen x="-1080" y="-235" width="1080" height="1897" />
     </state>
-    <state x="-803" y="189" width="670" height="1169" key="search.everywhere.popup/-1080.-235.1080.1897/0.23.2560.1417/2560.23.1792.1097@-1080.-235.1080.1897" timestamp="1607936141558" />
+    <state x="-803" y="189" width="670" height="1169" key="search.everywhere.popup/-1080.-235.1080.1897/0.23.2560.1417/2560.23.1792.1097@-1080.-235.1080.1897" timestamp="1607936625666" />
     <state x="-803" y="-33" width="670" height="1169" key="search.everywhere.popup/-1080.-457.1080.1897/0.23.2560.1417/2560.23.1792.1097@-1080.-457.1080.1897" timestamp="1607929567492" />
     <state x="460" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1607824552941" />
     <state x="657" y="339" width="958" height="874" key="search.everywhere.popup/0.23.2560.1417/2560.23.1792.1097@0.23.2560.1417" timestamp="1607675498322" />
