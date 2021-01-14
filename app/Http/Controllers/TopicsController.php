@@ -26,8 +26,14 @@ class TopicsController extends Controller
         return view('topics.index', compact('topics'));
 	}
 
-    public function show(Topic $topic)
+    public function show(Request $request, Topic $topic)
     {
+        // URL 矫正
+        if ( ! empty($topic->slug) && $topic->slug != $request->slug) {
+            return redirect($topic->link(), 301);
+        }
+
+
         return view('topics.show', compact('topic'));
     }
 
@@ -44,7 +50,7 @@ class TopicsController extends Controller
 		$topic->save();
 
 		session()->flash('success', '帖子创建成功！');
-		return redirect()->route('topics.show', $topic->id);
+		return redirect()->to($topic->link());
 	}
 
 	public function edit(Topic $topic)
@@ -60,7 +66,7 @@ class TopicsController extends Controller
 		$topic->update($request->all());
 
         session()->flash('success', '更新成功！');
-		return redirect()->route('topics.show', $topic->id);
+		return redirect()->to($topic->link());
 	}
 
 	public function destroy(Topic $topic)
